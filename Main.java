@@ -9,7 +9,6 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 public class Main {
-
     static class Share {
         final BigInteger x;
         final BigInteger y;
