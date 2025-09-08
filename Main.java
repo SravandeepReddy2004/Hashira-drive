@@ -18,7 +18,6 @@ public class Main {
             this.y = y;
         }
     }
-
     private static List<Share> parseShares(String jsonInput, int[] kOut) throws JSONException {
         List<Share> shares = new ArrayList<>();
         JSONObject rootObject = new JSONObject(jsonInput);
