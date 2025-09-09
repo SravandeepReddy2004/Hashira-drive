@@ -36,7 +36,6 @@ public class Main {
     private static BigInteger nextPrimeAbove(BigInteger n) {
         return n.nextProbablePrime();
     }
-
     public static BigInteger findSecret(List<Share> shares, int k) {
         List<Share> points = shares.subList(0, k);
 
