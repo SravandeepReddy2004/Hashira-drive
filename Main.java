@@ -33,7 +33,6 @@ public class Main {
         }
         return shares;
     }
-
     private static BigInteger nextPrimeAbove(BigInteger n) {
         return n.nextProbablePrime();
     }
