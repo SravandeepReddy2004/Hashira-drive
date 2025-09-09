@@ -29,7 +29,6 @@ public class Main {
             String valueStr = shareObject.getString("value");
             BigInteger x = new BigInteger(key);
             BigInteger y = new BigInteger(valueStr, base);
-
             shares.add(new Share(x, y));
         }
         return shares;
