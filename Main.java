@@ -20,7 +20,6 @@ public class Main {
         JSONObject rootObject = new JSONObject(jsonInput);
         JSONObject keysObject = rootObject.getJSONObject("keys");
         kOut[0] = keysObject.getInt("k");
-
         Iterator<String> keyIterator = rootObject.keys();
         while (keyIterator.hasNext()) {
             String key = keyIterator.next();
