@@ -27,7 +27,6 @@ public class Main {
             JSONObject shareObject = rootObject.getJSONObject(key);
             int base = Integer.parseInt(shareObject.getString("base"));
             String valueStr = shareObject.getString("value");
-
             BigInteger x = new BigInteger(key);
             BigInteger y = new BigInteger(valueStr, base);
 
