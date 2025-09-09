@@ -24,7 +24,6 @@ public class Main {
         while (keyIterator.hasNext()) {
             String key = keyIterator.next();
             if (key.equals("keys")) continue;
-
             JSONObject shareObject = rootObject.getJSONObject(key);
             int base = Integer.parseInt(shareObject.getString("base"));
             String valueStr = shareObject.getString("value");
